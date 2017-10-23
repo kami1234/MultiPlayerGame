@@ -8,7 +8,11 @@
         <string name="Exit_Game">Exit</string>
         <string name="New_Game">New Game</string>
         <string name="Multi_Player">Multi Player</string>
+        <string name="High_Score">High Scores</string>
 
         <color name="Background_Color">#3500ffff</color>
+
+        <string name="About_Game_Text" id="kkk">This is a Multiplayer game and you can play...</string>
+        <string name="About_Game_Title">About The Game</string>
 
 </resources>
