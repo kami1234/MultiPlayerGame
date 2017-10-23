@@ -1,0 +1,14 @@
+<resources>
+
+        <string name="action_settings">Settings</string>
+        <string name="App_Name">Multi Player Game</string>
+        <string name="Main_Title">Plane Wars</string>
+        <string name="Game_Continue">Continue</string>
+        <string name="About_Game">About</string>
+        <string name="Exit_Game">Exit</string>
+        <string name="New_Game">New Game</string>
+        <string name="Multi_Player">Multi Player</string>
+
+        <color name="Background_Color">#3500ffff</color>
+
+</resources>
