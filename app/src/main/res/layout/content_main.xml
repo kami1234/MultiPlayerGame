@@ -6,7 +6,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/Background_Color"
-    android:padding="30dip"
+    android:padding="15dip"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.kamran.multiplayergame.MainActivity"
     tools:showIn="@layout/activity_main">
@@ -14,7 +14,9 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_gravity="center">
+    android:layout_gravity="center"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp">
 
       <TextView
         android:layout_width="wrap_content"
@@ -25,6 +27,11 @@
           android:layout_marginBottom="25dip"
 
      ></TextView>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+<TableRow>
     <Button
         android:id="@+id/aBoutGame"
         android:layout_width="fill_parent"
@@ -35,6 +42,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/New_Game" />
+
+</TableRow>
+    <TableRow>
     <Button
         android:id="@+id/MultiPlayerGame"
         android:layout_width="fill_parent"
@@ -45,11 +55,22 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/Game_Continue" />
-    <Button
-        android:id="@+id/ExitGame"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Exit_Game" />
 
+    </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/High_Scores"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/High_Score" />
+            <Button
+                android:id="@+id/ExitGame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Exit_Game" />
+
+        </TableRow>
+
+</TableLayout>
 </LinearLayout>
     </LinearLayout>
