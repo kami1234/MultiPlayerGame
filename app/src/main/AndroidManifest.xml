@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kamran.multiplayergame">
 
+    <!--
+Let us defined the structure and the meta data of the file and it always stored in root directory it includes node of the
+each component like activity,services ,content provider,broad cast recievers
+    -->
+    <!-- Only one Application node -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,13 +24,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".About"
+        <activity
+            android:name=".About"
             android:label="@string/About_Game"
-            />
-        <activity android:name=".HighScores"
-            android:label="@string/High_Score">
-
-        </activity>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HighScores"
+            android:label="@string/High_Score"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MultiPlayer" />
+        <activity
+            android:name=".NewGame"
+            android:label="@string/title_activity_new_game"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

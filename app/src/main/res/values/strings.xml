@@ -14,5 +14,6 @@
 
     <string name="About_Game_Text">This is a Multiplayer game and you can play...</string>
     <string name="About_Game_Title">About The Game</string>
+    <string name="title_activity_new_game">NewGame</string>
 
 </resources>

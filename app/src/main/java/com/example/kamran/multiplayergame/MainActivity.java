@@ -9,9 +9,15 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.content.Intent;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String EXTRA_MESSAGE = "com.example.kamran.multiplayergame";
+  //  public static final String EXTRA_MESSAGE = "com.example.kamran.multiplayergame";
+      public Random rand;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,10 +33,35 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        View aBoutButton =findViewById(R.id.aBoutGame);
 
 
-    }
+
+                       rand = new Random();
+
+        EditText ed ;
+
+              // we can write an onclick listener as well lets make it for New game
+
+           findViewById(R.id.NewGame).setOnClickListener(new View.OnClickListener(){
+               @Override
+               public  void onClick(View view)
+               {
+                      int k = rand.nextInt();
+                   Intent i =new Intent(view.getContext(),NewGame.class);
+
+                    String testString = Integer.toString(k);
+
+                   i.putExtra("Name",testString);
+
+                     startActivity(i);
+
+               }
+
+
+           });
+
+
+    } //End Of onCreateFunction
 
 
     public  void DisplayAbout(View v)
@@ -45,12 +76,28 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public  void goToMultiPlayerRoom(View v)
+    {
+        Intent intent = new Intent(this,MultiPlayer.class);
+        startActivity(intent);
+
+    }
+
+
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
+
+
+
+
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
