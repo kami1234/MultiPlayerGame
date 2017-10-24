@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
               // we can write an onclick listener as well lets make it for New game
 
-           findViewById(R.id.NewGame).setOnClickListener(new View.OnClickListener(){
+          findViewById(R.id.NewGame).setOnClickListener(new View.OnClickListener(){
                @Override
                public  void onClick(View view)
                {
