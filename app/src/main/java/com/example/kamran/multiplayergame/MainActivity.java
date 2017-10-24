@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
                    i.putExtra("Name",testString);
 
+
                      startActivity(i);
 
                }
