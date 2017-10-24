@@ -15,15 +15,15 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:paddingLeft="25dp"
-    android:paddingRight="25dp">
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
 
       <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/App_Name"
           android:layout_gravity="center"
-          android:textSize="26.5sp"
+          android:textSize="28sp"
           android:layout_marginBottom="25dip"
 
      ></TextView>
@@ -61,6 +61,7 @@
         <TableRow>
             <Button
                 android:id="@+id/High_Scores"
+                android:onClick="ViewHighScore"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/High_Score" />

@@ -19,7 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".About"></activity>
+        <activity android:name=".About"
+            android:label="@string/About_Game"
+            />
+        <activity android:name=".HighScores"
+            android:label="@string/High_Score">
+
+        </activity>
     </application>
 
 </manifest>
