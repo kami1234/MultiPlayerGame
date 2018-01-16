@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/car_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_weight="1"
+        android:background="@drawable/wooden_texture">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Checkers P2P"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/checker_frame"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:orientation="vertical"
+        android:layout_centerInParent="false"
+        android:layout_weight="3"
+        android:background="#181818">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+
+                android:background="@drawable/rust_carpet">
+
+                <ImageView
+                    android:id="@+id/square_1_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+
+                    android:onClick="squareOnClick"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_1_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_1_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_1_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_2_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_2_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_2_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+
+                android:background="@drawable/rust_carpet">
+
+                <ImageView
+                    android:id="@+id/square_2_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/goat_one"
+
+
+                    android:onClick="squareOnClick"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+
+                android:background="@drawable/rust_carpet">
+
+                <ImageView
+                    android:id="@+id/square_3_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+                    android:onClick="squareOnClick"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_3_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_3_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_3_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_one"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_4_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_4_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_4_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+
+                android:background="@drawable/rust_carpet">
+
+                <ImageView
+                    android:id="@+id/square_4_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:onClick="squareOnClick"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+
+                android:background="@drawable/rust_carpet">
+
+                <ImageView
+                    android:id="@+id/square_5_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:onClick="squareOnClick"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_5_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_5_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_5_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_6_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_two"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_6_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_two"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_6_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_two"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+
+                android:background="@drawable/rust_carpet">
+
+                <ImageView
+                    android:id="@+id/square_6_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_two"
+                    android:onClick="squareOnClick"
+                    />
+
+            </LinearLayout>
+        </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="1px"
+            android:layout_weight="1"
+
+            android:background="@drawable/rust_carpet">
+
+            <ImageView
+                android:id="@+id/square_7_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/goat_two"
+                android:onClick="squareOnClick"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="1px"
+            android:layout_weight="1"
+            android:background="@drawable/gold_ochre">
+            <ImageView
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="1px"
+            android:layout_weight="1"
+            android:background="@drawable/rust_carpet">
+            <ImageView
+                android:id="@+id/square_7_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/goat_two"
+                android:onClick="squareOnClick" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="1px"
+            android:layout_weight="1"
+            android:background="@drawable/gold_ochre">
+            <ImageView
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="1px"
+            android:layout_weight="1"
+            android:background="@drawable/rust">
+            <ImageView
+                android:id="@+id/square_7_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/goat_two"
+                android:onClick="squareOnClick" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="1px"
+            android:layout_weight="1"
+            android:background="@drawable/gold_ochre">
+            <ImageView
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="1px"
+            android:layout_weight="1"
+            android:background="@drawable/rust_carpet">
+            <ImageView
+                android:id="@+id/square_7_4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/goat_two"
+                android:onClick="squareOnClick" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="1px"
+            android:layout_weight="1"
+            android:background="@drawable/gold_ochre">
+            <ImageView
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_8_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_two"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_8_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_two"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/rust_carpet">
+                <ImageView
+                    android:id="@+id/square_8_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_two"
+                    android:onClick="squareOnClick" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+                android:background="@drawable/gold_ochre">
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="1px"
+                android:layout_weight="1"
+
+                android:background="@drawable/rust_carpet">
+
+                <ImageView
+                    android:id="@+id/square_8_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/goat_two"
+                    android:onClick="squareOnClick"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_weight="1.2"
+        android:background="@drawable/wooden_texture">
+
+        <TextView
+            android:id="@+id/statustextview"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/selectedBlocktextview"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="status"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/aftertextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="43dp"
+            android:text="TextView"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="TextView"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+</LinearLayout>

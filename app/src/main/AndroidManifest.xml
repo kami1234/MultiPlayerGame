@@ -35,8 +35,8 @@ each component like activity,services ,content provider,broad cast recievers
         <activity android:name=".MultiPlayer" />
         <activity
             android:name=".NewGame"
-            android:label="@string/title_activity_new_game"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:screenOrientation="portrait" />
+        <activity android:name=".CheckersBoard"></activity>
     </application>
 
 </manifest>
